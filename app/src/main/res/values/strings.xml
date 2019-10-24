@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">CaterPillar</string>
+    <string name="title_ReqEquip">REQUEST\nEQUIPMENT</string>
+    <string name="title_actRentals">ACTIVE</string>
+    <string name="title_myYard">MY YARD</string>
+    <string name="title_openReq">OPEN</string>
+    <string name="Request_Equipment_Title">Choose Rental Store</string>
+</resources>

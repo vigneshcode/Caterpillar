@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".CategoryDetail">
+
+
+  <TextView
+      android:id="@+id/txtResultDisplay"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:textColor="#0C0A0A"
+      android:textSize="24sp"
+      android:textStyle="bold"
+      app:layout_constraintBottom_toTopOf="@+id/lstCatDetailResults"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent" />
+
+
+      <ListView
+          android:id="@+id/lstCatDetailResults"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+
+          app:layout_constraintBottom_toTopOf="@+id/lstCatDetailResultsImage"
+          app:layout_constraintTop_toBottomOf="@+id/txtResultDisplay"
+          tools:listitem="@layout/item_results" />
+
+
+      <GridView
+          android:id="@+id/lstCatDetailResultsImage"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:columnWidth="200dp"
+          android:horizontalSpacing="2dp"
+          android:numColumns="auto_fit"
+          app:layout_constraintBottom_toTopOf="@+id/txtResultDisplay"
+          app:layout_constraintTop_toBottomOf="@+id/lstCatDetailResults" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

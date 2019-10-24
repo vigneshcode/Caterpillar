@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/mnuRequestEquipment"
+    android:title="@string/title_ReqEquip"
+    />
+
+    <item
+    android:id="@+id/mnuActiveRentals"
+    android:title="@string/title_actRentals"
+    />
+    <item
+        android:id="@+id/mnuOpenRequests"
+
+        android:titleCondensed="@string/app_name"
+        android:title="@string/title_openReq"
+        android:menuCategory="container"
+        />
+    <item android:id="@+id/mnuMyYard"
+        android:title="@string/title_myYard"
+        />
+
+</menu>
