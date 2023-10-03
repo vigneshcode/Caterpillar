@@ -21,7 +21,7 @@ pipeline {
     stage('Deploy') {
       steps {
         echo 'Deploy'
-        mail(subject: 'Build Success', body: 'Build Success', to: 'dtechyogi@gmail.com')
+      
       }
     }
 
